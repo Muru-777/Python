@@ -1,0 +1,56 @@
+Python programs:
+
+Reverse only letters in word
+
+Sentence = "EyeHunts for student"
+
+for i in Sentence.split(" "):
+   rev = "".join(i[::-1])
+   print(rev, end=" ")
+
+Output:  stnuHeyE rof tneduts
+
+Reverse a string
+
+Sentence = "EyeHunts for student"
+
+rev = Sentence[::-1]
+print(rev, end=" ")
+
+Output: tneduts rof stnuHeyE 
+
+
+a = "murugavel is good boy"
+
+for i in a.split():
+  j = i[::-1]
+  print(j, end=' ')
+
+Output: levagurum si doog yob 
+
+thisdict = {
+  "brand": "Ford",
+  "electric": False,
+  "year": 1964,
+  "colors": ["red", "white", "blue"]
+}
+
+thisdict["model"] = "old"
+
+if "ford" in thisdict.values():
+	print("yes")
+X	
+for i in thisdict:
+	print(i, thisdict[i])
+    
+for i in thisdict.values():
+	print(i)
+    
+for x, y in thisdict.items():
+    print(x,y)
+
+new_dict = dict(thisdict)
+print(new_dict)
+
+
+Extend, append, insert, format, pop,remove, del, split, strip, count, clear
